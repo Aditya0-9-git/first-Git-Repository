@@ -1,0 +1,110 @@
+body {
+  background: #eee;
+}
+
+.container {
+  display: flex;
+  border: 5px solid black;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Common */
+.box, .small, .big, .square, .vertical {
+  border: 3px solid black;
+}
+
+/* Left */
+.left {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.small {
+  height: 50px;
+}
+
+.circle {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.two {
+  height: 100px;
+}
+
+/* Center */
+.center {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  border: 3px solid black;
+}
+
+.outer {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner1 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner2 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-circle {
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+/* Middle */
+.middle {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical {
+  width: 40px;
+  height: 200px;
+}
+
+/* Right */
+.right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top, .mid, .bottom {
+  display: flex;
+  gap: 10px;
+}
+
+.big {
+  flex: 1;
+  height: 60px;
+}

@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <STYLE>
+            *
+            {
+                margin: 0px;
+                padding: 0px;
+            }
+            ul{
+                list-style-type:none;
+            }
+            ul li
+            {
+                height: 55px;
+                width: 200px;
+                background: red;
+                float: left;
+                text-align: center;
+            }
+            ul li a{
+                text-decoration: none;
+                font-size:35px;
+                color: aliceblue;
+                font-weight: bold;
+                line-height: 40px;
+            }
+            ul li a:hover
+            {
+                background: rgb(62, 62, 10);
+                color: aqua;
+                display: block;
+            }
+            ul ul {
+                display: none;
+            }
+            ul li:hover>ul{
+                display: block;
+            }
+            ul ul ul {
+                margin-left:130px;
+                margin-top:-45px;
+            }
+
+        </STYLE>
+
+    </head>
+    <body>
+        <ul>
+           <li> <a href="">Home</a></li>
+            <li> <a href="">About</a>
+            <ul>
+                <li><a href="">vision</a></li>
+                <li><a href="">Mission</a>
+                    <ul>
+                        <li><a href="">Mission1 </a></li>
+                        <li><a href="">mission2 </a></li>
+                    </ul>
+                
+                </li>
+            </ul>
+            </li>
+                <li><a href="">Service</a></li>
+                    <li> <a href="">Register</a></li>
+                        <li> <a href="">Contact us</a></li>
+            
+
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+p::first-line
+{
+    color: red;
+}
+p::first-letter{
+    font-size: 50px;
+
+}
+p::selection
+{
+    background: yellow;
+    color: blue;
+}
+p::before
+{
+    content: "new text";
+}
+p::after{
+    content:"other text" ;
+}

@@ -1,0 +1,26 @@
+#box
+{
+    height: 200px;
+    width:400px;
+    background: red;
+    transition: 5s;
+}
+#box:hover{
+    background: blue;
+    height: 500px;
+    
+}
+h1{
+    color: orange;
+}
+h1:hover{
+    color: brown;
+}
+h2{
+    font-size: 100px;
+    text-align: center;
+    background: linear-gradient(brown,red,yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+           min-height: 600px;
+            width: 600px;
+            margin: 50px auto;
+            border: 2px solid black;
+            display:flex; /*display flex ke bina ham justify content aur align item ka use nhi kr sakte h*/
+            flex-direction: row; /*flex direction justify content ko y axis me convert krta h*/
+            flex-wrap: wrap; /* next line me le jata h jab overflow ho border/*
+            
+            gap: 10px;
+            justify-content: space-evenly;
+            align-items: center;
+
+           /* justify-content: flex-start;
+            align-items: flex-end;*/
+            /*align-content: ;*/
+            
+            
+        }
+        #parent div{
+            height: 100px;
+            width: 100px;
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+    <div id="parent div">
+        <div>0</div>
+    </div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    </div>
+
+</body>
+</html>
